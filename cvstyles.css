@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  padding: 5px;
+  background: #f1f1f1;
+  font-family: "Roboto", sans-serif;
+}
+
+.greyf{
+  color: #757575;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.tan{
+  color: #8e6a3a;
+}
+.fa-suitcase{
+  padding-right: 20px;
+}
+.fa-calendar{
+  padding-right: 20px;
+}
+.boxtan{
+  background-color: #8e6a3a;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+/*
+.card {
+    background-color: #e6adad;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+} */
+
+.leftcolumn{
+  float: left;
+  width: 30%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 70%;
+  padding-left: 10px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+#nameTag{
+  padding: 16px;
+  /* color: white;
+  position: absolute;
+  top: 25%;
+  left: 16px; */
+}
+#profilePicture{
+  border-radius:50%;
+  margin: -20px;
+}
+
+#mepic{
+  border-radius: 16px 16px 0px 0px;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
