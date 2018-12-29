@@ -1,13 +1,11 @@
 * {
     box-sizing: border-box;
 }
-
 body {
   padding: 5px;
   background: #f1f1f1;
   font-family: "Roboto", sans-serif;
 }
-
 .greyf{
   color: #757575;
 }
@@ -17,16 +15,14 @@ body {
     display: table;
     clear: both;
 }
-
 /* Add a card effect for articles */
 .card {
     background-color: white;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 35px;
     border-radius: 16px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 }
-
 .tan{
   color: #8e6a3a;
 }
@@ -35,6 +31,9 @@ body {
 }
 .fa-calendar{
   padding-right: 20px;
+}
+.fa-user{
+  padding-right: 5px
 }
 .boxtan{
   background-color: #8e6a3a;
@@ -53,18 +52,15 @@ body {
     border-radius: 16px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 } */
-
 .leftcolumn{
   float: left;
   width: 30%;
 }
-
 .rightcolumn {
   float: right;
   width: 70%;
   padding-left: 10px;
 }
-
 /* Footer */
 .footer {
     padding: 20px;
@@ -72,6 +68,8 @@ body {
     background: #ddd;
     margin-top: 20px;
 }
+
+
 #nameTag{
   padding: 16px;
   /* color: white;
@@ -83,7 +81,6 @@ body {
   border-radius:50%;
   margin: -20px;
 }
-
 #mepic{
   border-radius: 16px 16px 0px 0px;
 }
